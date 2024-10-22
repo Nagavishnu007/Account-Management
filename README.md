@@ -7,11 +7,12 @@
 3. Account Management Page:
             Users can view their account information (e.g., username, email).
             Implements authentication to ensure only logged-in users can access this page.
+   
 4.Technologies:
-Frontend: React 
-State Management: Context API
-Routing: React Router for page navigation
-Form Validation: React Hook Form 
-Authentication: Basic session handling (local storage)
+           Frontend  : React 
+           State Management: Context API
+           Routing : React Router for page navigation
+           Form Validation : React Hook Form 
+           Authentication : Basic session handling (local storage)
 
 5.Deploy link : https://account-management321.netlify.app/ 
