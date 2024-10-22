@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url("https://cdn.vectorstock.com/i/500p/15/71/abstract-3d-luxury-black-color-wave-lines-vector-43391571.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;    
+    border-bottom: 1px solid rgb(219, 209, 209);
+}
+nav a{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family:'Times New Roman', Times, serif;
+    margin:50px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: rgb(172, 160, 160);
+    border-bottom: 2px solid rgb(218, 214, 223);
+}
+
+h2{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    width: 30%;
+    margin: auto;
+}
+
+.form form input{
+        display:inline-block;
+        padding: 6px;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+}
+.form form input:focus{
+     border: 3px solid rgb(141, 141, 135);
+}
+.form form button {
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 5px;
+    width: 50%;
+    background-color: rgb(71, 66, 75);
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+.form form button:hover{
+    background-color: rgb(173, 168, 157);
+    transition: 1s;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.login p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(175, 175, 160);
+}
+.login button{
+    width: 140px;
+    padding: 10px;
+    background-color: rgb(71, 66, 75);
+    color: black;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+
+.login button:hover{
+    background-color: rgb(173, 168, 157);
+    transition: 1s;
+}
